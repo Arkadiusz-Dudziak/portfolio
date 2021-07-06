@@ -25,6 +25,9 @@ body
 
 @media (max-width: 992px) 
 {
+    .desktopOnly {
+        display: none;
+    }
     #side_info
     {
         height: auto;
