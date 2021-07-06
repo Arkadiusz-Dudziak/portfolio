@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icon.png" />
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="score"></div>
+            <canvas class="tetris" width="240" height="400"></canvas>
+        </div>
+
+        <div class="stats">
+            <p id="gameStatus">DRAW</p>
+            <p id="winningPlayer"></p>
+            <p>best score:</p>
+            <p id="bestPoints">0</p>
+        </div>
+    
+        <div class="player">
+            <div class="score"></div>
+            <canvas class="tetris" width="240" height="400"></canvas>
+        </div>
+    </div>
+    
+    <footer>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script src="player.js"></script>
+    <script src="arena.js"></script>
+    <script src="tetris.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
