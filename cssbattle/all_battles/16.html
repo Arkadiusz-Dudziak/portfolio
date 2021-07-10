@@ -1,0 +1,58 @@
+<div class="c small"></div>
+<div class="c medium"></div>
+<div class="c big"></div>
+<div class="c biggest"></div>
+<div class="t l"></div>
+<div class="t r"></div>
+<style>
+  body{
+    background: #0B2429;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .t{
+    position: absolute;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 90px solid #998235;
+    transform: rotate(90deg);
+    z-index: -200;
+  }
+  .l{
+    transform: rotate(-90deg);
+    margin-left: -190px;
+  }
+  .r{
+    margin-right: -190px;
+  }
+  .c{
+    border-radius: 50%;
+	position: absolute
+  }
+  .small{
+    width: 50px;
+    height: 50px;
+    background: #0B2429;
+    z-index: 100;
+  }
+  .medium{
+    width: 140px;
+    height: 140px;
+    z-index: 50;
+    background: #F3AC3C;
+  }
+  .big{
+    width: 180px;
+    height: 180px;
+    z-index: 10;
+    background: #0B2429;
+  }
+  .biggest{
+    width: 200px;
+    height: 200px;
+    background: #998235;
+  }
+</style>
+<!-- 596.16 (99.9% match) -->

@@ -1,0 +1,43 @@
+<div id="grid">
+    <div class="c"></div>
+    <div class="c c2"></div>
+    <div class="c d"></div>
+    <div class="c d d2"></div>
+  </div>
+  <style>
+    body{
+      background: #191210;
+    }
+    .c{
+      height: 145px;
+      width: 145px;
+      margin: auto;
+      margin-top: 75px;
+      border-radius: 50%;
+      background: #ECA03D;
+    }
+    .c2{
+      z-index: 100;
+      position: relative;
+      height: 50px;
+      width: 50px;
+      margin-top: -120px;
+      border: 25px #191210 solid;
+      background: #84271C;
+    }
+    .d{
+      height: 55px;
+      width: 55px;
+      margin-top: -95px;
+      margin-left: 45px;
+      background: #191210;
+      border: 22px #ECA03D solid;
+      border-bottom-color: #191210;
+        border-left-color: #191210;
+      transform: rotate(135deg);
+    }
+    .d2{
+       margin-left: 250px;
+      transform: rotate(-45deg);
+    }
+  </style>
