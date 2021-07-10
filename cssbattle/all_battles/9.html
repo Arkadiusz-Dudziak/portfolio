@@ -1,0 +1,43 @@
+<div id="grid">
+    <div id="r"></div>
+    <div id="sq"></div>
+    <div id="c"></div>
+  </div>
+  
+  <style>
+    body{
+      background: #222730;
+      margin: 0;
+    }
+    #grid{ 
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+    #r{
+      grid-column: 1/4;
+      background: #4CAAB3;
+      height:150px;
+      margin-top: 75px;
+    }
+    #sq{
+      width: 150px;
+      height: 150px;
+      background: #4CAAB3;
+      transform: rotate(45deg);
+      grid-column: 2/3;
+      margin: auto;
+      margin-top: -200px;
+      border: 50px #222730 solid
+    }
+    #c{
+      position: relative;
+      grid-column: 2/3;
+      background: #393E46;
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      margin: auto;
+      margin-top: -150px;
+      z-index: 100;
+    }
+  </style>
